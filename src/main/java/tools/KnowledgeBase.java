@@ -23,10 +23,10 @@ public class KnowledgeBase {
             List<String> findResults = match_bool_fields(Configuration.ES_INDEX_KB,terms,fields);
 
             if(findResults!=null && findResults.size()!=0){
-                System.out.println("实体："+entity+"存在"+findResults.size());
+                System.out.println("["+KnowledgeBase.class+"]"+"实体："+entity+"存在"+findResults.size());
                 return true;
             }else {
-                System.out.println("实体："+entity+"不存在");
+                System.out.println("["+KnowledgeBase.class+"]"+"实体："+entity+"不存在");
                 return false;
             }
         } catch (UnknownHostException e) {

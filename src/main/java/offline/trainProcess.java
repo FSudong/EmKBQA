@@ -25,11 +25,11 @@ public class trainProcess {
         for(Iterator<String> it = keyset.iterator();it.hasNext();){
             String question = it.next();
             String answer = QAs.get(question);
-            System.out.println(question+" ::  "+answer);
+            System.out.println("["+trainProcess.class+"]"+question+" ::  "+answer);
 
             //对每个问答对进行抽离得到 q e v
             List<Quadruple<String,String,String,String>> QEV = extractEPV.parseQA2qepv(question,answer);
-            System.out.println(trainProcess.class+"获得qepv");
+            System.out.println("["+trainProcess.class+"]"+"获得qepv");
             //获取该问题的template
 //            getConcept.getEntityConceptByContext(question,entity);
 

@@ -40,7 +40,7 @@ public class extractEPV {
         List<String> answerValue = getAnswerValues(answer);
         Map<String,String> entityAndValue = new LinkedHashMap<String, String>();
         if(questionEntity==null||answerValue==null||questionEntity.size()==0||answerValue.size()==0){
-            System.out.println("该question或者answer中无实体");
+            System.out.println("["+extractEPV.class+"]"+"该question或者answer中无实体");
             return null;
         }
 
@@ -55,7 +55,7 @@ public class extractEPV {
                             //随后，谓词类型与问题类型 需要一致
                             if(QPredicateTypeEqual(question,predicate) ){
                                 //保存使得问题与谓词类型匹配的 所有 e p v
-                                System.out.println(e+"-->>"+v+"-->>"+predicates.size());
+                                System.out.println("["+extractEPV.class+"]"+e+"-->>"+v+"-->>"+predicates.size());
                                 Quadruple<String,String,String,String> qepv =
                                         new Quadruple(question,e,predicate,v);
                                 if(!QEPVs.contains(qepv)){QEPVs.add(qepv);}
@@ -80,7 +80,7 @@ public class extractEPV {
 
     public static void getConstantProbability(List<Quadruple<String,String,String,String>> QEPVs){
         if(QEPVs==null || QEPVs.size()==0){
-            System.out.println("该问答对无qepv记录");
+            System.out.println("["+extractEPV.class+"]"+"该问答对无qepv记录");
         }
 
         //存储该问题最终有多少实体 用于计算P(e|q)
@@ -165,7 +165,7 @@ public class extractEPV {
         List<String> entitys = StanfordEnglishNER.getEntitys(question);
         //验证知识图谱中是否存在该实体，以进行过滤
         if(entitys==null||entitys.size()==0){
-            System.out.println("斯坦福ner未发现"+question+"中的实体");
+            System.out.println("["+extractEPV.class+"]"+"斯坦福ner未发现"+question+"中的实体");
             return null;
         }
         for (String e:entitys){
@@ -179,9 +179,10 @@ public class extractEPV {
 
     public static List<String> getAnswerValues(String answer){
         List<String> values = StanfordEnglishNER.getEntitys(answer);
+        //命名实体不能发现 答案中的实体  则直接使用answer
         if(values==null||values.size()==0){
-            System.out.println("斯坦福ner未发现"+answer+"中的实体");
-            return null;
+            System.out.println("["+extractEPV.class+"]"+"斯坦福ner未发现"+answer+"中的实体");
+            values.add(answer);
         }
         //验证知识图谱中是否存在该实体，以进行过滤
         for (String v:values){

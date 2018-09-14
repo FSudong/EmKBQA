@@ -52,14 +52,14 @@ public class StanfordEnglishNER {
                 String pos = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
                 // this is the NER label of the token
                 String ne = token.get(CoreAnnotations.NamedEntityTagAnnotation.class);
-                System.out.println("ne: "+ne+" word: "+word+" pos: "+pos);
+                System.out.println("["+StanfordEnglishNER.class+"]"+"ne: "+ne+" word: "+word+" pos: "+pos);
                 if(!ne.toString().equalsIgnoreCase("O")){
                     entityLength += 1;
                     if(entityTerm!=null && entityLength > 1){
                         entityTerm += " ";
                     }
                     entityTerm += word;
-                    System.out.println("saved ne: "+ne+" word: "+word+" pos: "+pos);
+                    System.out.println("["+StanfordEnglishNER.class+"]"+"saved ne: "+ne+" word: "+word+" pos: "+pos);
                 }else if(!entityTerm.equalsIgnoreCase("")){
                     entitys.add(entityTerm);
                     entityTerm = "";
@@ -72,7 +72,7 @@ public class StanfordEnglishNER {
             }
         }
         for (String entity:entitys){
-            System.out.println(entity);
+            System.out.println("["+StanfordEnglishNER.class+"]"+entity);
         }
         return entitys;
     }
