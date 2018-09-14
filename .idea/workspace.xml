@@ -2,14 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b653c0f-c32f-429f-8a83-7924ff5e0834" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PreProcess/getConcept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/es/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/es/DataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/es/DeleteIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/es/FileConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/es/GetClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/es/IndexFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/es/SearchFAQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/es/SearchFAQTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tools/es/parse_text.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PreProcess/extractEPV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PreProcess/extractEPV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PreProcess/generateConcept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PreProcess/generateTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PreProcess/getTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/offline/StanfordEnglishNlpExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/StanfordEnglishNER.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/offline/trainProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/offline/trainProcess.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,20 +64,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="StanfordEnglishNER.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tools/StanfordEnglishNER.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            <state relative-caret-position="220">
+              <caret line="76" column="23" lean-forward="true" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/offline/StanfordEnglishNlpExample.java">
+      <file leaf-file-name="testStream.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/testStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="36" column="46" lean-forward="true" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+            <state relative-caret-position="304">
+              <caret line="16" column="57" lean-forward="true" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,47 +85,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PreProcess/generateConcept.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PreProcess/generateTemplate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PreProcess/extractEPV.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/online/qa.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="trainProcess.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/offline/trainProcess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="328">
+              <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="extractEPV.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PreProcess/extractEPV.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="975">
+              <caret line="76" column="17" lean-forward="true" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getConcept.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PreProcess/getConcept.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,9 +136,33 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/PreProcess/extractEPV.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/offline/NERDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/offline/BasicPipelineExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/offline/StanfordEnglishNlpExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/offline/StanfordEnglishNER.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PreProcess/generateConcept.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PreProcess/Concept.java" />
+        <option value="$PROJECT_DIR$/src/main/java/workStream.java" />
+        <option value="$PROJECT_DIR$/src/main/java/offline/BasicPipelineExample2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Configuration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tools/contextConcept.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tools/es/GetClient.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/tools/es/Configuration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tools/es/DataSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tools/es/IndexFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tools/es/FileConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tools/es/SearchFAQTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tools/es/parse_text.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tools/KnowledgeBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PreProcess/getTemplate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PreProcess/extractEPV.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tools/es/SearchFAQ.java" />
+        <option value="$PROJECT_DIR$/src/main/java/conf/Configuration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tools/StanfordEnglishNER.java" />
+        <option value="$PROJECT_DIR$/src/main/java/testStream.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PreProcess/getConcept.java" />
+        <option value="$PROJECT_DIR$/src/main/java/offline/trainProcess.java" />
       </list>
     </option>
   </component>
@@ -145,9 +175,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\apache-maven-3.5.4\respository" />
-        <option name="mavenHome" value="D:/apache-maven-3.5.4/apache-maven-3.5.4" />
-        <option name="userSettingsFile" value="D:\apache-maven-3.5.4\apache-maven-3.5.4\conf\settings.xml" />
+        <option name="localRepository" value="F:\repository" />
+        <option name="mavenHome" value="D:/Program Files/maven/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="D:\Program Files\maven\apache-maven-3.5.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -171,16 +201,26 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="EmKBQA" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="EmKBQA" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="edu.stanford.nlp:stanford-corenlp:models:3.6.0" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="EmKBQA" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="edu.stanford.nlp:stanford-parser:3.8.0" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
       </expand>
       <select />
     </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="245" />
@@ -194,81 +234,169 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="EmKBQA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EmKBQA" type="462c0819:PsiDirectoryNode" />
+              <item name="EmKBQA1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EmKBQA1.1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="EmKBQA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EmKBQA" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EmKBQA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EmKBQA" type="462c0819:PsiDirectoryNode" />
+              <item name="EmKBQA1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EmKBQA1.1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="EmKBQA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EmKBQA" type="462c0819:PsiDirectoryNode" />
+              <item name="EmKBQA1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EmKBQA1.1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="EmKBQA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EmKBQA" type="462c0819:PsiDirectoryNode" />
+              <item name="EmKBQA1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EmKBQA1.1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="EmKBQA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EmKBQA" type="462c0819:PsiDirectoryNode" />
+              <item name="EmKBQA1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EmKBQA1.1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="offline" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="EmKBQA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EmKBQA" type="462c0819:PsiDirectoryNode" />
+              <item name="EmKBQA1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EmKBQA1.1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="online" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="EmKBQA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EmKBQA" type="462c0819:PsiDirectoryNode" />
+              <item name="EmKBQA1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EmKBQA1.1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="PreProcess" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="EmKBQA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EmKBQA" type="462c0819:PsiDirectoryNode" />
+              <item name="EmKBQA1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EmKBQA1.1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="EmKBQA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EmKBQA" type="462c0819:PsiDirectoryNode" />
+              <item name="EmKBQA1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EmKBQA1.1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="es" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EmKBQA1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="EmKBQA1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: edu.stanford.nlp:stanford-corenlp:3.6.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="EmKBQA1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: edu.stanford.nlp:stanford-corenlp:3.6.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="stanford-corenlp-3.6.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EmKBQA1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: edu.stanford.nlp:stanford-corenlp:3.6.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="stanford-corenlp-3.6.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EmKBQA1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: edu.stanford.nlp:stanford-corenlp:3.6.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="stanford-corenlp-3.6.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
+              <item name="math" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EmKBQA1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: edu.stanford.nlp:stanford-corenlp:3.6.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="stanford-corenlp-3.6.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
+              <item name="pipeline" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EmKBQA1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: edu.stanford.nlp:stanford-corenlp:models:3.6.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="EmKBQA1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: edu.stanford.nlp:stanford-corenlp:models:3.6.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="stanford-corenlp-3.6.0-models.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EmKBQA1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: edu.stanford.nlp:stanford-corenlp:models:3.6.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="stanford-corenlp-3.6.0-models.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EmKBQA1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: edu.stanford.nlp:stanford-corenlp:models:3.6.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="stanford-corenlp-3.6.0-models.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EmKBQA1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: edu.stanford.nlp:stanford-corenlp:models:3.6.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="stanford-corenlp-3.6.0-models.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="ner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EmKBQA1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: edu.stanford.nlp:stanford-parser:3.8.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="EmKBQA1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: edu.stanford.nlp:stanford-parser:3.8.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="stanford-parser-3.8.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EmKBQA1.1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: edu.stanford.nlp:stanford-parser:3.8.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="stanford-parser-3.8.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -276,13 +404,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535719235084" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/laboratory/laboratory/qaTask4ccks" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Coding\java\EmKBQA1.1\src\main\java\tools" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -296,10 +429,54 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="StanfordEnglishNlpExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="offline.StanfordEnglishNlpExample" />
-      <module name="EmKBQA" />
+  <component name="RunManager" selected="Application.testStream">
+    <configuration name="NERDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="offline.NERDemo" />
+      <module name="EmKBQA1.1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tools.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SearchFAQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tools.es.SearchFAQ" />
+      <module name="EmKBQA1.1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tools.es.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="StanfordEnglishNER" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tools.StanfordEnglishNER" />
+      <module name="EmKBQA1.1" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tools.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method>
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testStream" />
+      <module name="EmKBQA1.1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="trainProcess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="offline.trainProcess" />
+      <module name="EmKBQA1.1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -307,33 +484,65 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
-      <method v="2">
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.StanfordEnglishNER" />
+      <item itemvalue="Application.NERDemo" />
+      <item itemvalue="Application.testStream" />
+      <item itemvalue="Application.SearchFAQ" />
+      <item itemvalue="Application.trainProcess" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StanfordEnglishNlpExample" />
+        <item itemvalue="Application.testStream" />
+        <item itemvalue="Application.trainProcess" />
+        <item itemvalue="Application.SearchFAQ" />
+        <item itemvalue="Application.StanfordEnglishNER" />
+        <item itemvalue="Application.NERDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -351,45 +560,101 @@
       <workItem from="1533380179566" duration="965000" />
       <workItem from="1533381214970" duration="604000" />
       <workItem from="1535701704217" duration="6780000" />
+      <workItem from="1535723554076" duration="1217000" />
+      <workItem from="1535767971301" duration="653000" />
+      <workItem from="1535768764290" duration="22000" />
+      <workItem from="1535768940837" duration="1951000" />
+      <workItem from="1535777113312" duration="4217000" />
+      <workItem from="1535900510434" duration="636000" />
+      <workItem from="1535901226314" duration="3678000" />
+      <workItem from="1536108220790" duration="1252000" />
+      <workItem from="1536109625734" duration="136000" />
+      <workItem from="1536138659872" duration="13945000" />
+      <workItem from="1536154882789" duration="1663000" />
+      <workItem from="1536159361723" duration="74000" />
+      <workItem from="1536159438458" duration="11000" />
+      <workItem from="1536159519735" duration="3171000" />
+      <workItem from="1536162761333" duration="293000" />
+      <workItem from="1536212014666" duration="8998000" />
+      <workItem from="1536234488018" duration="14635000" />
+      <workItem from="1536308197057" duration="4631000" />
+      <workItem from="1536395181096" duration="3198000" />
+      <workItem from="1536572275971" duration="16212000" />
+      <workItem from="1536665075630" duration="12974000" />
+      <workItem from="1536748305880" duration="14654000" />
+      <workItem from="1536830011981" duration="6806000" />
+      <workItem from="1536846044117" duration="3269000" />
+      <workItem from="1536852385140" duration="1463000" />
+      <workItem from="1536903694587" duration="2396000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12239000" />
+    <option name="totallyTimeSpent" value="134394000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49865952" weight="0.3281027" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5020107" side_tool="true" weight="0.39942938" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.34852546" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49731904" weight="0.4136947" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Designer" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.59859157" weight="0.22252011" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info id="Structure" order="1" sideWeight="0.40140846" side_tool="true" weight="0.17024128" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49798927" weight="0.25249642" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.22396576" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.22396576" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49731904" weight="0.4136947" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.59859157" visible="true" weight="0.22252011" />
+      <window_info id="Structure" order="1" sideWeight="0.40140846" side_tool="true" weight="0.17024128" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32899022" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.48425624" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3293348" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="UI Designer" order="4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49798927" visible="true" weight="0.25249642" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.32995737" />
-    </layout>
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5020107" side_tool="true" weight="0.39942938" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49865952" weight="0.3281027" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.34852546" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -397,23 +662,196 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PreProcess/getConcept.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PreProcess/getConcept.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PreProcess/getConcept.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PreProcess/getConcept.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PreProcess/getConcept.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PreProcess/getConcept.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PreProcess/getConcept.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PreProcess/getConcept.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tools/StanfordEnglishNER.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/testStream.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/testStream.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PreProcess/getConcept.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PreProcess/getConcept.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PreProcess/getConcept.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PreProcess/getConcept.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tools/es/IndexFile.java</url>
+          <line>394</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tools/es/parse_text.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tools/es/SearchFAQ.java</url>
+          <line>160</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tools/es/SearchFAQ.java</url>
+          <line>243</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tools/es/SearchFAQ.java</url>
+          <line>182</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tools/es/SearchFAQ.java</url>
+          <line>241</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tools/es/SearchFAQ.java</url>
+          <line>157</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tools/es/SearchFAQ.java</url>
+          <line>155</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/offline/trainProcess.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PreProcess/getConcept.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="52" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/templateAndpredict">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/StanfordEnglishNER.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/termConcept">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/QAbase">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/PreProcess/getConcept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/TripleBase">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PreProcess/generateTemplate.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/PreProcess/getTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PreProcess/extractEPV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -431,31 +869,441 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PreProcess/extractEPV.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/StanfordEnglishNER.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="36" column="46" lean-forward="true" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/cn.fsd:EmKBQA:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>cn.fsd:EmKBQA:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="925.7657657657658" y="690.0">cn.fsd:EmKBQA:1.0-SNAPSHOT</node>
+            <node x="343.48697916666663" y="300.0">edu.stanford.nlp:stanford-corenlp:jar:3.6.0</node>
+            <node x="586.5130208333334" y="160.0">edu.stanford.nlp:stanford-corenlp:jar:3.6.0/com.io7m.xom:xom:jar:1.2.10</node>
+            <node x="633.3203125" y="0.0">edu.stanford.nlp:stanford-corenlp:jar:3.6.0/com.io7m.xom:xom:jar:1.2.10/xml-apis:xml-apis:jar:1.3.03</node>
+            <node x="596.8203125" y="80.0">edu.stanford.nlp:stanford-corenlp:jar:3.6.0/com.io7m.xom:xom:jar:1.2.10/xerces:xercesImpl:jar:2.8.0</node>
+            <node x="515.8203125" y="80.0">edu.stanford.nlp:stanford-corenlp:jar:3.6.0/com.io7m.xom:xom:jar:1.2.10/xalan:xalan:jar:2.7.0</node>
+            <node x="506.3203125" y="0.0">edu.stanford.nlp:stanford-corenlp:jar:3.6.0/com.io7m.xom:xom:jar:1.2.10/xalan:xalan:jar:2.7.0/xml-apis:xml-apis:jar:1.0.b2</node>
+            <node x="456.79166666666663" y="160.0">edu.stanford.nlp:stanford-corenlp:jar:3.6.0/joda-time:joda-time:jar:2.9</node>
+            <node x="360.79166666666663" y="160.0">edu.stanford.nlp:stanford-corenlp:jar:3.6.0/de.jollyday:jollyday:jar:0.4.7</node>
+            <node x="407.8203125" y="80.0">edu.stanford.nlp:stanford-corenlp:jar:3.6.0/de.jollyday:jollyday:jar:0.4.7/joda-time:joda-time:jar:2.1</node>
+            <node x="309.8203125" y="80.0">edu.stanford.nlp:stanford-corenlp:jar:3.6.0/de.jollyday:jollyday:jar:0.4.7/javax.xml.bind:jaxb-api:jar:2.2.7</node>
+            <node x="229.38802083333337" y="160.0">edu.stanford.nlp:stanford-corenlp:jar:3.6.0/com.googlecode.efficient-java-matrix-library:ejml:jar:0.23</node>
+            <node x="99.38802083333337" y="160.0">edu.stanford.nlp:stanford-corenlp:jar:3.6.0/javax.json:javax.json-api:jar:1.0</node>
+            <node x="0.0" y="160.0">edu.stanford.nlp:stanford-corenlp:jar:3.6.0/org.slf4j:slf4j-api:jar:1.7.12</node>
+            <node x="144.48697916666663" y="300.0">edu.stanford.nlp:stanford-corenlp:jar:models:3.6.0</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="edu.stanford.nlp:stanford-corenlp:jar:models:3.6.0" target="edu.stanford.nlp:stanford-corenlp:jar:3.6.0/javax.json:javax.json-api:jar:1.0">
+              <point x="-44.75" y="-15.0" />
+              <point x="189.23697916666663" y="270.0" />
+              <point x="126.88802083333337" y="270.0" />
+              <point x="-27.5" y="15.0" />
+            </edge>
+            <edge source="edu.stanford.nlp:stanford-corenlp:jar:models:3.6.0" target="edu.stanford.nlp:stanford-corenlp:jar:3.6.0/org.slf4j:slf4j-api:jar:1.7.12">
+              <point x="-74.58333333333326" y="-15.0" />
+              <point x="159.40364583333337" y="280.0" />
+              <point x="19.25" y="280.0" />
+              <point x="-19.25" y="15.0" />
+            </edge>
+            <edge source="edu.stanford.nlp:stanford-corenlp:jar:3.6.0/de.jollyday:jollyday:jar:0.4.7" target="edu.stanford.nlp:stanford-corenlp:jar:3.6.0/de.jollyday:jollyday:jar:0.4.7/joda-time:joda-time:jar:2.1">
+              <point x="19.0" y="-15.0" />
+              <point x="417.79166666666663" y="140.0" />
+              <point x="451.8203125" y="140.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="edu.stanford.nlp:stanford-corenlp:jar:3.6.0/com.io7m.xom:xom:jar:1.2.10" target="edu.stanford.nlp:stanford-corenlp:jar:3.6.0/com.io7m.xom:xom:jar:1.2.10/xalan:xalan:jar:2.7.0">
+              <point x="-19.0" y="-15.0" />
+              <point x="596.0130208333334" y="140.0" />
+              <point x="546.3203125" y="140.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="edu.stanford.nlp:stanford-corenlp:jar:3.6.0" target="edu.stanford.nlp:stanford-corenlp:jar:3.6.0/joda-time:joda-time:jar:2.9">
+              <point x="32.5" y="-15.0" />
+              <point x="440.98697916666663" y="260.0" />
+              <point x="522.7916666666666" y="260.0" />
+              <point x="22.0" y="15.0" />
+            </edge>
+            <edge source="edu.stanford.nlp:stanford-corenlp:jar:3.6.0/com.io7m.xom:xom:jar:1.2.10" target="edu.stanford.nlp:stanford-corenlp:jar:3.6.0/com.io7m.xom:xom:jar:1.2.10/xml-apis:xml-apis:jar:1.3.03">
+              <point x="19.0" y="-15.0" />
+              <point x="634.0130208333334" y="140.0" />
+              <point x="702.3203125" y="140.0" />
+              <point x="702.3203125" y="55.0" />
+              <point x="693.3203125" y="55.0" />
+              <point x="20.0" y="15.0" />
+            </edge>
+            <edge source="edu.stanford.nlp:stanford-corenlp:jar:models:3.6.0" target="edu.stanford.nlp:stanford-corenlp:jar:3.6.0/com.io7m.xom:xom:jar:1.2.10">
+              <point x="74.58333333333337" y="-15.0" />
+              <point x="308.5703125" y="270.0" />
+              <point x="600.7630208333334" y="270.0" />
+              <point x="-14.25" y="15.0" />
+            </edge>
+            <edge source="edu.stanford.nlp:stanford-corenlp:jar:3.6.0" target="edu.stanford.nlp:stanford-corenlp:jar:3.6.0/com.io7m.xom:xom:jar:1.2.10">
+              <point x="54.166666666666686" y="-15.0" />
+              <point x="462.65364583333337" y="280.0" />
+              <point x="629.2630208333334" y="280.0" />
+              <point x="14.25" y="15.0" />
+            </edge>
+            <edge source="edu.stanford.nlp:stanford-corenlp:jar:3.6.0/com.io7m.xom:xom:jar:1.2.10/xalan:xalan:jar:2.7.0" target="edu.stanford.nlp:stanford-corenlp:jar:3.6.0/com.io7m.xom:xom:jar:1.2.10/xalan:xalan:jar:2.7.0/xml-apis:xml-apis:jar:1.0.b2">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="edu.stanford.nlp:stanford-corenlp:jar:3.6.0" target="edu.stanford.nlp:stanford-corenlp:jar:3.6.0/javax.json:javax.json-api:jar:1.0">
+              <point x="-32.5" y="-15.0" />
+              <point x="375.98697916666663" y="220.0" />
+              <point x="181.88802083333337" y="220.0" />
+              <point x="27.5" y="15.0" />
+            </edge>
+            <edge source="edu.stanford.nlp:stanford-corenlp:jar:3.6.0" target="edu.stanford.nlp:stanford-corenlp:jar:3.6.0/com.googlecode.efficient-java-matrix-library:ejml:jar:0.23">
+              <point x="-10.833333333333371" y="-15.0" />
+              <point x="397.65364583333326" y="210.0" />
+              <point x="271.38802083333337" y="210.0" />
+              <point x="14.0" y="15.0" />
+            </edge>
+            <edge source="edu.stanford.nlp:stanford-corenlp:jar:3.6.0/com.io7m.xom:xom:jar:1.2.10/xerces:xercesImpl:jar:2.8.0" target="edu.stanford.nlp:stanford-corenlp:jar:3.6.0/com.io7m.xom:xom:jar:1.2.10/xml-apis:xml-apis:jar:1.3.03">
+              <point x="0.0" y="-15.0" />
+              <point x="644.3203125" y="55.0" />
+              <point x="653.3203125" y="55.0" />
+              <point x="-20.0" y="15.0" />
+            </edge>
+            <edge source="cn.fsd:EmKBQA:1.0-SNAPSHOT" target="edu.stanford.nlp:stanford-corenlp:jar:3.6.0">
+              <point x="20.75" y="-15.0" />
+              <point x="341.98697916666663" y="355.0" />
+              <point x="408.48697916666663" y="355.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="edu.stanford.nlp:stanford-corenlp:jar:models:3.6.0" target="edu.stanford.nlp:stanford-corenlp:jar:3.6.0/com.googlecode.efficient-java-matrix-library:ejml:jar:0.23">
+              <point x="-14.916666666666629" y="-15.0" />
+              <point x="219.0703125" y="280.0" />
+              <point x="243.38802083333337" y="280.0" />
+              <point x="-14.0" y="15.0" />
+            </edge>
+            <edge source="edu.stanford.nlp:stanford-corenlp:jar:3.6.0/com.io7m.xom:xom:jar:1.2.10" target="edu.stanford.nlp:stanford-corenlp:jar:3.6.0/com.io7m.xom:xom:jar:1.2.10/xerces:xercesImpl:jar:2.8.0">
+              <point x="0.0" y="-15.0" />
+              <point x="615.0130208333334" y="130.0" />
+              <point x="644.3203125" y="130.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="edu.stanford.nlp:stanford-corenlp:jar:3.6.0" target="edu.stanford.nlp:stanford-corenlp:jar:3.6.0/de.jollyday:jollyday:jar:0.4.7">
+              <point x="10.833333333333314" y="-15.0" />
+              <point x="419.3203125" y="240.0" />
+              <point x="417.79166666666663" y="240.0" />
+              <point x="19.0" y="15.0" />
+            </edge>
+            <edge source="edu.stanford.nlp:stanford-corenlp:jar:3.6.0" target="edu.stanford.nlp:stanford-corenlp:jar:3.6.0/org.slf4j:slf4j-api:jar:1.7.12">
+              <point x="-54.166666666666686" y="-15.0" />
+              <point x="354.3203125" y="230.0" />
+              <point x="57.75" y="230.0" />
+              <point x="19.25" y="15.0" />
+            </edge>
+            <edge source="edu.stanford.nlp:stanford-corenlp:jar:models:3.6.0" target="edu.stanford.nlp:stanford-corenlp:jar:3.6.0/joda-time:joda-time:jar:2.9">
+              <point x="44.75" y="-15.0" />
+              <point x="278.73697916666663" y="250.0" />
+              <point x="478.79166666666663" y="250.0" />
+              <point x="-22.0" y="15.0" />
+            </edge>
+            <edge source="edu.stanford.nlp:stanford-corenlp:jar:models:3.6.0" target="edu.stanford.nlp:stanford-corenlp:jar:3.6.0/de.jollyday:jollyday:jar:0.4.7">
+              <point x="14.916666666666629" y="-15.0" />
+              <point x="248.90364583333326" y="240.0" />
+              <point x="379.79166666666663" y="240.0" />
+              <point x="-19.0" y="15.0" />
+            </edge>
+            <edge source="cn.fsd:EmKBQA:1.0-SNAPSHOT" target="edu.stanford.nlp:stanford-corenlp:jar:models:3.6.0">
+              <point x="-20.75" y="-15.0" />
+              <point x="300.48697916666663" y="355.0" />
+              <point x="233.98697916666663" y="355.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="edu.stanford.nlp:stanford-corenlp:jar:3.6.0/de.jollyday:jollyday:jar:0.4.7" target="edu.stanford.nlp:stanford-corenlp:jar:3.6.0/de.jollyday:jollyday:jar:0.4.7/javax.xml.bind:jaxb-api:jar:2.2.7">
+              <point x="-19.0" y="-15.0" />
+              <point x="379.79166666666663" y="140.0" />
+              <point x="348.8203125" y="140.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.46647230320699706" x="505.0" y="360.0" />
+          <SelectedNodes>
+            <node>cn.fsd:EmKBQA:1.0-SNAPSHOT</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/repository/edu/stanford/nlp/stanford-corenlp/3.6.0/stanford-corenlp-3.6.0.jar!/edu/stanford/nlp/pipeline/POSTaggerAnnotator.class" />
+    <entry file="jar://F:/repository/edu/stanford/nlp/stanford-corenlp/3.6.0/stanford-corenlp-3.6.0.jar!/edu/stanford/nlp/dcoref/CorefChain.class" />
+    <entry file="file://F:/repository/xalan/xalan/2.7.0/xalan-2.7.0.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/repository/edu/stanford/nlp/stanford-corenlp/3.9.1/stanford-corenlp-3.9.1-sources.jar!/edu/stanford/nlp/pipeline/AnnotatorImplementations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3458">
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/repository/edu/stanford/nlp/stanford-corenlp/3.9.1/stanford-corenlp-3.9.1-sources.jar!/edu/stanford/nlp/dcoref/Dictionaries.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7068">
+          <caret line="392" selection-start-line="392" selection-end-line="392" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/repository/edu/stanford/nlp/stanford-corenlp/3.6.0/stanford-corenlp-3.6.0.jar!/edu/stanford/nlp/ling/CoreAnnotations.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PreProcess/generateConcept.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/offline/BasicPipelineExample.java" />
+    <entry file="jar://D:/Program Files/java/jdk1.8.0_121/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/online/qa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/offline/BasicPipelineExample2.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/contextConcept.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <state relative-caret-position="1753">
+          <caret line="194" column="21" selection-start-line="194" selection-start-column="21" selection-end-line="194" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/offline/StanfordEnglishNlpExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/es/GetClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="36" column="46" lean-forward="true" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+        <state relative-caret-position="114">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/es/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/es/DeleteIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/es/FileConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/es/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/es/parse_text.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="43" column="48" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/KnowledgeBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/conf/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/java/jdk1.8.0_121/src.zip!/java/io/ObjectInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="2602" column="27" selection-start-line="2602" selection-start-column="27" selection-end-line="2602" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PreProcess/getTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/repository/edu/stanford/nlp/stanford-corenlp/3.6.0/stanford-corenlp-3.6.0.jar!/edu/stanford/nlp/ling/CoreLabel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-912">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/es/IndexFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1976">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/offline/NERDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1759">
+          <caret line="40" column="59" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/es/SearchFAQTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/es/SearchFAQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-641">
+          <caret line="133" column="11" selection-start-line="133" selection-start-column="11" selection-end-line="133" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/repository/edu/stanford/nlp/stanford-corenlp/3.6.0/stanford-corenlp-3.6.0.jar!/edu/stanford/nlp/io/IOUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5757">
+          <caret line="364" selection-start-line="364" selection-end-line="364" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/repository/edu/stanford/nlp/stanford-corenlp/3.6.0/stanford-corenlp-3.6.0.jar!/edu/stanford/nlp/ie/AbstractSequenceClassifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16435">
+          <caret line="967" selection-start-line="967" selection-end-line="967" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/repository/edu/stanford/nlp/stanford-corenlp/3.6.0/stanford-corenlp-3.6.0.jar!/edu/stanford/nlp/ie/crf/CRFClassifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50939">
+          <caret line="2784" column="35" selection-start-line="2784" selection-start-column="27" selection-end-line="2784" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/repository/edu/stanford/nlp/stanford-corenlp/3.6.0/stanford-corenlp-3.6.0.jar!/edu/stanford/nlp/ie/ClassifierCombiner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/repository/edu/stanford/nlp/stanford-corenlp/3.6.0/stanford-corenlp-3.6.0.jar!/edu/stanford/nlp/ie/NERClassifierCombiner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="62" column="90" selection-start-line="62" selection-start-column="81" selection-end-line="62" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/repository/edu/stanford/nlp/stanford-corenlp/3.6.0/stanford-corenlp-3.6.0.jar!/edu/stanford/nlp/pipeline/AnnotatorImplementations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1844">
+          <caret line="181" selection-start-line="22" selection-end-line="181" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/repository/edu/stanford/nlp/stanford-corenlp/3.6.0/stanford-corenlp-3.6.0.jar!/edu/stanford/nlp/pipeline/AnnotatorFactories.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="221" selection-start-line="221" selection-end-line="221" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/repository/edu/stanford/nlp/stanford-corenlp/3.6.0/stanford-corenlp-3.6.0.jar!/edu/stanford/nlp/pipeline/AnnotatorPool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/repository/edu/stanford/nlp/stanford-corenlp/3.6.0/stanford-corenlp-3.6.0.jar!/edu/stanford/nlp/pipeline/StanfordCoreNLP.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="300" column="17" lean-forward="true" selection-start-line="300" selection-start-column="17" selection-end-line="300" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/StanfordEnglishNER.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="76" column="23" lean-forward="true" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PreProcess/getConcept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PreProcess/extractEPV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="76" column="17" lean-forward="true" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="57" lean-forward="true" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/offline/trainProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -514,7 +1362,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>EmKBQA</last-edited>
+          <last-edited>EmKBQA1.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
