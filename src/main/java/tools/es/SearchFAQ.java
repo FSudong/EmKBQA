@@ -36,24 +36,35 @@ public class SearchFAQ {
      * @return List<String>
      * @throws UnknownHostException
      */
-    public static List<String> query(QueryBuilder queryBuilder, String indexName) throws UnknownHostException {
-        TransportClient client = GetClient.getTransportClient();
-
+    public static List<String> query(QueryBuilder queryBuilder, String indexName){
         List<String> hitContent = new ArrayList<String>();
+        try {
+            TransportClient client = GetClient.getTransportClient();
 
-        SearchResponse scrollResp = client.prepareSearch(indexName)
+
+
+            SearchResponse scrollResp = client.prepareSearch(indexName)
 //                .addSort("num",SortOrder.ASC)
-                .setScroll(new TimeValue(60000))
-                .setQuery(queryBuilder)
-                .setSize(100).execute().actionGet(); //100 hits per shard will be returned for each scroll
+                    .setScroll(new TimeValue(60000))
+                    .setQuery(queryBuilder)
+                    .setSize(1000).execute().actionGet(); //100 hits per shard will be returned for each scroll
 
-        while(scrollResp.getHits().getHits().length != 0){
             for(SearchHit hit: scrollResp.getHits().getHits()){
-                hitContent.add(hit.getSourceAsString());
+                    hitContent.add(hit.getSourceAsString());
             }
-            scrollResp = client.prepareSearchScroll(scrollResp.getScrollId()).setScroll(new TimeValue(60000)).execute().actionGet();
+//            while(scrollResp.getHits().getHits().length != 0){
+//                for(SearchHit hit: scrollResp.getHits().getHits()){
+//                    hitContent.add(hit.getSourceAsString());
+//                }
+//                scrollResp = client.prepareSearchScroll(scrollResp.getScrollId()).setScroll(new TimeValue(60000)).execute().actionGet();
+//
+//            }
+//        client.close();
 
+        }catch (Exception e){
+            System.out.println(e);
         }
+
         return hitContent;
     }
 

@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5b653c0f-c32f-429f-8a83-7924ff5e0834" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PreProcess/extractEPV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PreProcess/extractEPV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/offline/trainProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/offline/trainProcess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tools/KnowledgeBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/KnowledgeBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tools/StanfordEnglishNER.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/StanfordEnglishNER.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tools/es/SearchFAQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/es/SearchFAQ.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,8 +51,11 @@
       <file leaf-file-name="StanfordEnglishNER.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tools/StanfordEnglishNER.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="76" selection-start-line="76" selection-end-line="76" />
+            <state relative-caret-position="-119">
+              <caret line="23" column="54" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="54" />
+              <folding>
+                <element signature="e#670#678#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,19 +63,25 @@
       <file leaf-file-name="testStream.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/testStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="285">
+              <caret line="15" column="72" lean-forward="true" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="trainProcess.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="trainProcess.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/offline/trainProcess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="399">
+              <caret line="30" column="82" lean-forward="true" selection-start-line="30" selection-start-column="74" selection-end-line="30" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1171#1172#0" expanded="true" />
+                <element signature="e#1194#1195#0" expanded="true" />
+                <element signature="e#1304#1320#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,25 +96,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="extractEPV.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="extractEPV.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/PreProcess/extractEPV.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="76" selection-start-line="76" selection-end-line="76" />
+            <state relative-caret-position="207">
+              <caret line="24" column="53" lean-forward="true" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+              <folding>
+                <element signature="e#1311#1354#0" expanded="true" />
+                <element signature="e#4071#4079#0" expanded="true" />
+                <element signature="e#5022#5030#0" expanded="true" />
+                <element signature="e#5664#5672#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchFAQ.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tools/es/SearchFAQ.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1311#1354#0" expanded="true" />
-                <element signature="e#1550#1566#0" expanded="true" />
-                <element signature="e#3386#3408#0" expanded="true" />
-                <element signature="e#3513#3556#0" expanded="true" />
-                <element signature="e#3680#3716#0" expanded="true" />
-                <element signature="e#3828#3874#0" expanded="true" />
-                <element signature="e#4071#4079#0" expanded="true" />
-                <element signature="e#4534#4550#0" expanded="true" />
-                <element signature="e#4873#4889#0" expanded="true" />
-                <element signature="e#5022#5030#0" expanded="true" />
-                <element signature="e#5507#5531#0" expanded="true" />
-                <element signature="e#5664#5672#0" expanded="true" />
+                <element signature="e#1383#1391#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,8 +127,8 @@
       <file leaf-file-name="KnowledgeBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tools/KnowledgeBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="14" column="26" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="26" />
+            <state relative-caret-position="207">
+              <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -126,8 +136,8 @@
       <file leaf-file-name="getConcept.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/PreProcess/getConcept.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+            <state relative-caret-position="-152">
+              <caret line="22" column="73" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -174,13 +184,13 @@
         <option value="$PROJECT_DIR$/src/main/java/tools/es/SearchFAQTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/tools/es/parse_text.java" />
         <option value="$PROJECT_DIR$/src/main/java/PreProcess/getTemplate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tools/es/SearchFAQ.java" />
         <option value="$PROJECT_DIR$/src/main/java/conf/Configuration.java" />
         <option value="$PROJECT_DIR$/src/main/java/testStream.java" />
         <option value="$PROJECT_DIR$/src/main/java/PreProcess/getConcept.java" />
         <option value="$PROJECT_DIR$/src/main/java/tools/StanfordEnglishNER.java" />
         <option value="$PROJECT_DIR$/src/main/java/offline/trainProcess.java" />
         <option value="$PROJECT_DIR$/src/main/java/tools/KnowledgeBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tools/es/SearchFAQ.java" />
         <option value="$PROJECT_DIR$/src/main/java/PreProcess/extractEPV.java" />
       </list>
     </option>
@@ -253,8 +263,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -417,6 +425,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -608,6 +618,8 @@
       <workItem from="1536908042673" duration="1105000" />
       <workItem from="1536913540386" duration="3074000" />
       <workItem from="1536922119116" duration="2248000" />
+      <workItem from="1536931517265" duration="5967000" />
+      <workItem from="1536983240915" duration="4055000" />
     </task>
     <task id="LOCAL-00001" summary="1、2018-9-14更新蛮多的">
       <created>1536908268220</created>
@@ -616,11 +628,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536908268220</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1、2018-9-14更新了输出格式">
+      <created>1536931636367</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1536931636367</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140821000" />
+    <option name="totallyTimeSpent" value="150843000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -631,22 +650,22 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5020107" side_tool="true" weight="0.39942938" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50268096" side_tool="true" weight="0.47788873" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.34852546" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49731904" weight="0.4136947" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49731904" weight="0.49500713" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.59859157" visible="true" weight="0.22788204" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.59859157" visible="true" weight="0.23458445" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" sideWeight="0.40140846" side_tool="true" weight="0.17024128" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49798927" visible="true" weight="0.84022826" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49731904" visible="true" weight="0.26533523" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -656,31 +675,31 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.22396576" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49731904" weight="0.4136947" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49865952" weight="0.3281027" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.59859157" visible="true" weight="0.22520107" />
       <window_info id="Structure" order="1" sideWeight="0.40140846" side_tool="true" weight="0.17024128" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49731904" weight="0.4136947" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.22396576" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49798927" weight="0.25249642" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5020107" side_tool="true" weight="0.39942938" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49798927" weight="0.25249642" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5020107" side_tool="true" weight="0.39942938" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49865952" weight="0.3281027" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.34852546" />
       <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
@@ -693,7 +712,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1、2018-9-14更新蛮多的" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、2018-9-14更新蛮多的" />
+    <MESSAGE value="1、2018-9-14更新了输出格式" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、2018-9-14更新了输出格式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -796,37 +816,37 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/tools/es/SearchFAQ.java</url>
-          <line>160</line>
+          <line>171</line>
           <properties />
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/tools/es/SearchFAQ.java</url>
-          <line>243</line>
+          <line>254</line>
           <properties />
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/tools/es/SearchFAQ.java</url>
-          <line>182</line>
+          <line>193</line>
           <properties />
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/tools/es/SearchFAQ.java</url>
-          <line>241</line>
+          <line>252</line>
           <properties />
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/tools/es/SearchFAQ.java</url>
-          <line>157</line>
+          <line>168</line>
           <properties />
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/tools/es/SearchFAQ.java</url>
-          <line>155</line>
+          <line>166</line>
           <properties />
           <option name="timeStamp" value="49" />
         </line-breakpoint>
@@ -938,25 +958,95 @@
           <properties />
           <option name="timeStamp" value="76" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PreProcess/extractEPV.java</url>
+          <line>180</line>
+          <properties />
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PreProcess/extractEPV.java</url>
+          <line>182</line>
+          <properties />
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PreProcess/extractEPV.java</url>
+          <line>187</line>
+          <properties />
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PreProcess/extractEPV.java</url>
+          <line>192</line>
+          <properties />
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tools/es/SearchFAQ.java</url>
+          <line>85</line>
+          <properties />
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tools/es/SearchFAQ.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tools/es/SearchFAQ.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tools/es/SearchFAQ.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tools/es/SearchFAQ.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tools/es/SearchFAQ.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tools/es/SearchFAQ.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tools/es/SearchFAQ.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/offline/trainProcess.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PreProcess/extractEPV.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="78" />
+      <option name="time" value="107" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/tools/StanfordEnglishNER.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PreProcess/getConcept.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1299,16 +1389,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tools/es/SearchFAQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-641">
-          <caret line="133" column="11" selection-start-line="133" selection-start-column="11" selection-end-line="133" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://F:/repository/edu/stanford/nlp/stanford-corenlp/3.6.0/stanford-corenlp-3.6.0.jar!/edu/stanford/nlp/io/IOUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5757">
@@ -1372,16 +1452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PreProcess/getConcept.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2147">
@@ -1389,55 +1459,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tools/KnowledgeBase.java">
+    <entry file="jar://F:/repository/org/elasticsearch/elasticsearch/5.5.1/elasticsearch-5.5.1.jar!/org/elasticsearch/client/transport/TransportClientNodesService.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="26" />
+        <state relative-caret-position="162">
+          <caret line="221" column="54" selection-start-line="221" selection-start-column="47" selection-end-line="221" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testStream.java">
+    <entry file="jar://F:/repository/org/elasticsearch/elasticsearch/5.5.1/elasticsearch-5.5.1.jar!/org/elasticsearch/action/ActionRequestBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="205">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PreProcess/getConcept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="22" column="73" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tools/StanfordEnglishNER.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        <state relative-caret-position="-119">
+          <caret line="23" column="54" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="54" />
+          <folding>
+            <element signature="e#670#678#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PreProcess/extractEPV.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/testStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        <state relative-caret-position="285">
+          <caret line="15" column="72" lean-forward="true" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1311#1354#0" expanded="true" />
-            <element signature="e#1550#1566#0" expanded="true" />
-            <element signature="e#3386#3408#0" expanded="true" />
-            <element signature="e#3513#3556#0" expanded="true" />
-            <element signature="e#3680#3716#0" expanded="true" />
-            <element signature="e#3828#3874#0" expanded="true" />
-            <element signature="e#4071#4079#0" expanded="true" />
-            <element signature="e#4534#4550#0" expanded="true" />
-            <element signature="e#4873#4889#0" expanded="true" />
-            <element signature="e#5022#5030#0" expanded="true" />
-            <element signature="e#5507#5531#0" expanded="true" />
-            <element signature="e#5664#5672#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/offline/trainProcess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="399">
+          <caret line="30" column="82" lean-forward="true" selection-start-line="30" selection-start-column="74" selection-end-line="30" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1171#1172#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="e#1304#1320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/KnowledgeBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/es/SearchFAQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1383#1391#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PreProcess/extractEPV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="24" column="53" lean-forward="true" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+          <folding>
+            <element signature="e#1311#1354#0" expanded="true" />
+            <element signature="e#4071#4079#0" expanded="true" />
+            <element signature="e#5022#5030#0" expanded="true" />
+            <element signature="e#5664#5672#0" expanded="true" />
           </folding>
         </state>
       </provider>
